@@ -283,6 +283,209 @@ body{
         margin-bottom: 10px;
     }
 
+    /* Main - Reserva de Quartos */
+    #box_suite_simples{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1em;
+        grid-template-rows: 8vmin 6vmin 12vmin 7vmin 10vmin;
+
+        margin-bottom: 3em;
+
+        font-family: 'Roboto', sans-serif;
+        color: #596275;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    #box_suite_simples h3:nth-child(1){
+        font-weight: 600;
+
+        margin-left: 1em;
+    }
+    #box_suite_simples img:nth-child(2){
+        margin-left: 1em;
+        height: 33vmin;
+        grid-row-start: 2;
+    }
+    #box_suite_simples span:nth-child(3){
+        grid-row-start: 2;
+    }
+    #box_suite_simples span:nth-child(4){
+        grid-row-start: 3;
+        grid-column: 2;
+    }
+    #box_suite_simples span:nth-child(5){
+        grid-row-start: 4;
+        grid-column: 2;
+
+        color: #EA2027;
+        font-weight: 600;
+    }
+    #box_suite_simples div:nth-child(6){
+        grid-row-start: 5;
+        grid-column: 2;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 15px;
+        /* height: 3.5em; */
+
+        min-height: 20px;
+        max-height: 40px;
+        max-width: 125px;
+        min-width: 115px;
+
+
+        background-color: #FFDA79;
+        color: #596275;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .tipo_quarto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1em;
+        grid-template-rows: 8vmin 6vmin 6vmin 10vmin 7vmin 10vmin;
+
+        margin-bottom: 3em;
+
+        font-family: 'Roboto', sans-serif;
+        color: #596275;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .tipo_quarto h3:nth-child(1){
+        font-weight: 600;
+
+        margin-left: 1em;
+    }
+    .tipo_quarto img:nth-child(2){
+        margin-left: 1em;
+        height: 33vmin;
+
+        grid-row-start: 2;
+        grid-column: 1;
+    }
+    .tipo_quarto span:nth-child(3){
+        grid-row-start: 2;
+        grid-column: 2;
+    }
+    .tipo_quarto span:nth-child(4){
+        grid-row-start: 3;
+        grid-column: 2;
+    }
+    .tipo_quarto span:nth-child(5){
+        grid-row-start: 4;
+        grid-column: 2;
+    }
+    .tipo_quarto span:nth-child(6){
+        grid-row-start: 5;
+        grid-column: 2;
+
+        color: #EA2027;
+        font-weight: 600;
+    }
+    .tipo_quarto div:nth-child(7){
+        grid-row-start: 6;
+        grid-column: 2;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 15px;
+        /* height: 3.5em; */
+
+        min-height: 20px;
+        max-height: 40px;
+        max-width: 125px;
+        min-width: 115px;
+
+
+        background-color: #FFDA79;
+        color: #596275;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    #suite_familia{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1em;
+        grid-template-rows: 8vmin 6vmin 6vmin 10vmin 7vmin 10vmin 10vmin;
+
+        margin-bottom: 3em;
+
+        font-family: 'Roboto', sans-serif;
+        color: #596275;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    #suite_familia h3:nth-child(1){
+        font-weight: 600;
+
+        margin-left: 1em;
+    }
+    #suite_familia img:nth-child(2){
+        margin-left: 1em;
+        height: 33vmin;
+
+        grid-row-start: 2;
+        grid-column: 1;
+    }
+    #suite_familia span:nth-child(3){
+        grid-row-start: 2;
+        grid-column: 2;
+    }
+    #suite_familia span:nth-child(4){
+        grid-row-start: 3;
+        grid-column: 2;
+    }
+    #suite_familia span:nth-child(5){
+        grid-row-start: 4;
+        grid-column: 2;
+    }
+    #suite_familia span:nth-child(6){
+        grid-row-start: 5;
+        grid-column: 2;
+    }
+    #suite_familia span:nth-child(7){
+        grid-row-start: 6;
+        grid-column: 2;
+
+        color: #EA2027;
+        font-weight: 600;
+    }
+    #suite_familia div:nth-child(8){
+        grid-row-start: 7;
+        grid-column: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 15px;
+        /* height: 3.5em; */
+
+        min-height: 20px;
+        max-height: 40px;
+        max-width: 100%;
+
+        margin-left: 1em;
+
+
+        background-color: #FFDA79;
+        color: #596275;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
 
 /* ------------------> Footer */
     footer{
