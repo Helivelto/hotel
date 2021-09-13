@@ -71,6 +71,11 @@ body{
         min-height: 20vh;
         max-height: 30vh;
     }
+    header img[src='img/hero_reserva.jpg']{
+        width: 100%;
+        min-height: 20vh;
+        max-height: 30vh;
+    }
 /* Menu Hamburger Icon */
     #painel_menu{
         position: absolute;
