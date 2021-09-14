@@ -284,74 +284,11 @@ body{
     }
 
     /* Main - Reserva de Quartos */
-    #box_suite_simples{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1em;
-        grid-template-rows: 8vmin 8vmin 15vmin 10vmin;
-
-        margin-bottom: 3em;
-    }
-    #box_suite_simples h3:nth-child(1){
-        font-weight: 600;
-
-        margin-left: 1.5em;
-
-        align-self: center;
-    }
-    #box_suite_simples img:nth-child(2){
-        margin-left: 1.5em;
-
-        height: 33vmin;
-        
-        grid-row-start: 2;
-    }
-    #box_suite_simples span:nth-child(3){
-        grid-row-start: 2;
-    }
-    #box_suite_simples span:nth-child(4){
-        grid-row-start: 2;
-        grid-column: 2;
-        align-self: end;
-    }
-    #box_suite_simples span:nth-child(5){
-        grid-row-start: 3;
-        grid-column: 2;
-        align-self: center;
-
-        color: #EA2027;
-        font-weight: 600;
-    }
-    #box_suite_simples div:nth-child(6){
-        grid-row-start: 4;
-        grid-column: 2;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        border-radius: 15px;
-        /* height: 3.5em; */
-
-        min-height: 20px;
-        max-height: 40px;
-        max-width: 90%;
-
-        margin-top: 0.5em;
-
-
-        background-color: #FFDA79;
-        color: #596275;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 0.8rem;
-    }
-
     .tipo_quarto{
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 1em;
-        grid-template-rows: 8vmin 12vmin 12vmin 10vmin;
+        grid-template-rows: 8vmin 20vmin 12vmin 12vmin;
 
         margin-bottom: 3em;
 
@@ -374,129 +311,39 @@ body{
         grid-row-start: 2;
         grid-column: 1;
     }
-    .tipo_quarto span:nth-child(3){
+    .tipo_quarto ul{
         grid-row-start: 2;
-        grid-column: 2;
-        align-self: top;
     }
-    .tipo_quarto span:nth-child(4){
-        grid-row-start: 2;
-        grid-column: 2;
-        align-self: center;
+    .tipo_quarto ul li{
+        margin-top: 0.2em;
     }
-    .tipo_quarto span:nth-child(5){
-        grid-row-start: 2;
-        grid-column: 2;
-        align-self: end;
-    }
-    .tipo_quarto span:nth-child(6){
+    .tipo_quarto span{
         grid-row-start: 3;
         grid-column: 2;
+        align-self: end;
 
-        align-self: center;
+        margin-top: 1em;
 
         color: #EA2027;
         font-weight: 600;
     }
-    .tipo_quarto div:nth-child(7){
+    .tipo_quarto div{
         grid-row-start: 4;
-        grid-column: 2;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        border-radius: 15px;
-        /* height: 3.5em; */
-
-        min-height: 20px;
-        max-height: 40px;
-        max-width: 90%;
-
-        margin-top: 0.5em;
-
-        background-color: #FFDA79;
-        color: #596275;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 0.8rem;
-    }
-
-    #suite_familia{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1em;
-        grid-template-rows: 8vmin 12vmin 12vmin 10vmin;
-
-        margin-bottom: 3em;
-    }
-    #suite_familia h3:nth-child(1){
-        font-weight: 600;
-
-        margin-left: 1.5em;
-
-        align-self: center;
-    }
-    /* #suite_familia img:nth-child(2){
-        margin-left: 1em;
-        height: 33vmin;
-        
-
-        grid-row-start: 2;
         grid-column: 1;
-    }
-    #suite_familia span:nth-child(3){
-        grid-row-start: 2;
-        grid-column: 2;
-        align-self: top;
-    }
-    #suite_familia span:nth-child(4){
-        grid-row-start: 2;
-        grid-column: 2;
-        align-self: center;
-    }
-    #suite_familia span:nth-child(5){
-        grid-row-start: 2;
-        grid-column: 2;
-        align-self: end;
-
-        margin-top: 5%;
-    }
-    #suite_familia span:nth-child(6){
-        grid-row-start: 3;
-        grid-column: 2;
-        align-self: top;
-
-        color: #596275;
-        font-weight: 500;
-    } */
-    #suite_familia ul{
-        grid-row-start: 2;
-    }
-    #suite_familia span{
-        grid-row-start: 3;
-        grid-column: 2;
-        align-self: center;
-
-        color: #EA2027;
-        font-weight: 600;
-    }
-    #suite_familia div{
-        grid-row-start: 4;
-        grid-column: 2;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        border-radius: 15px;
+        border-radius: 10px;
         /* height: 3.5em; */
 
         min-height: 20px;
         max-height: 40px;
-        max-width: 90%;
+        max-width: 100%;
 
-        margin-top: 0.5em;
+        margin-top: 1em;
+        margin-left: 1em;
 
 
         background-color: #FFDA79;
