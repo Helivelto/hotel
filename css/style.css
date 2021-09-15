@@ -17,6 +17,7 @@ body{
         height: 100%;
         position: relative;
         background-color: #F3E8CB;
+        /* background-color: #FFFBF0; */
     }
 
 /* ------------------> Header */
@@ -232,7 +233,7 @@ body{
 
 /* ------------------> Main / Serviços */
     main{
-
+        min-height: 65vh;
 
         /* height: 100%; */
 
