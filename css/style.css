@@ -6,6 +6,12 @@ body{
         width: 100vmin;
         /* min-width: 415px; */
         height: 100%;
+
+        /* Variaveis */
+        --menu_color: #F7F1E3;
+        --bg_color: #F3E8CB;
+        --yellow_details: #FFDA79;
+        --main_font-color: #596275;
 }
 
 
@@ -16,7 +22,7 @@ body{
         /* min-width: 415px; */
         height: 100%;
         position: relative;
-        background-color: #F3E8CB;
+        background-color: var(--bg_color);
         /* background-color: #FFFBF0; */
     }
 
@@ -26,7 +32,7 @@ body{
         min-height: 35vh;
         max-height: 45vh;
 
-        background-color: #F7F1E3;
+        background-color: var(--menu_color);
         display: flex;
 
         position: relative;
@@ -180,7 +186,7 @@ body{
         top: 12vh;
         right: 0%;
 
-        background-color: #F3E8CB;
+        background-color: var(--bg_color);
 
         /* margin: 0px 0 0 -130px;
         padding-top: 105px 0 0 20px; */
@@ -197,7 +203,7 @@ body{
         align-items: center;
     }
     #painel_menu li a{
-        color: #596275;
+        color: var(--main_font-color);
         text-decoration: none;
         font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
@@ -223,7 +229,7 @@ body{
         min-width: 118px;
 
 
-        background-color: #FFDA79;
+        background-color: var(--yellow_details);
         outline: none;
         border: none;
         font-family: 'Roboto', sans-serif;
@@ -232,7 +238,7 @@ body{
     }
     #reserva_btn a{
         text-decoration: none;
-        color: #596275;
+        color: var(--main_font-color);
     }
 
 
@@ -280,7 +286,7 @@ body{
         font-size: 1.3rem;
         font-family: 'Montserrat', 'arial', sans-serif;
         font-weight: bold;
-        color: #596275;
+        color: var(--main_font-color);
     }
     #main_container h2{
         margin-top: 2em;
@@ -312,7 +318,7 @@ body{
         width: 100%;
     }
     .boxes_home{
-        background-color: #FFDA79;
+        background-color: var(--yellow_details);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
         margin-bottom: 1em;
@@ -324,7 +330,7 @@ body{
     }
     .boxes_home a{
         text-decoration: none;
-        color: #596275;
+        color: var(--main_font-color);
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 0.9rem;
@@ -344,7 +350,7 @@ body{
         margin-bottom: 3em;
 
         font-family: 'Roboto', sans-serif;
-        color: #596275;
+        color: var(--main_font-color);
         font-size: 0.8rem;
         font-weight: 500;
     }
@@ -397,8 +403,8 @@ body{
         margin-left: 1.5em;
 
 
-        background-color: #FFDA79;
-        color: #596275;
+        background-color: var(--yellow_details);
+        color: var(--main_font-color);
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         font-size: 0.8rem;
@@ -407,7 +413,7 @@ body{
     #container_boxes{
         height: 100%;
 
-        background-color: #F3E8CB;
+        background-color: var(--bg_color);
 
         padding-bottom: 20vh;
     }
@@ -425,7 +431,7 @@ body{
         top: 0;
         z-index: 999;
 
-        background-color: crimson;
+        background-color: var(--menu_color);
     }
     .display{
         display: block;
@@ -446,7 +452,7 @@ body{
 
         display: flex;
 
-        background-color: #F7F1E3;
+        background-color: var(--menu_color);
 
         align-items: center;
         justify-content: space-between;
