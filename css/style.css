@@ -440,6 +440,8 @@ body{
 
         background-color: var(--menu_color);
         font-family: 'Roboto', sans-serif;
+
+        animation: popUp-scale 1s forwards;
     }
     #container_menu{
         height: 100%;
@@ -585,6 +587,29 @@ body{
         to{
             opacity: 1;
             transform: none;
+        }
+    }
+
+    #container_boxes{
+        animation: slide_boxes_main 1s forwards;
+    }
+    @keyframes slide_boxes_main {
+        from{
+            opacity: 0;
+            transform: translateX(-30px);
+        }
+        to{
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    @keyframes popUp-scale {
+        from{
+            transform: scale(0.1);
+        }
+        to{
+            transform: scale(1);
         }
     }
 
