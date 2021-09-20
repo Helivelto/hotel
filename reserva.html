@@ -83,9 +83,9 @@
                         <li>Serviços de Quarto</li>
                     </ul>
 
-                    <span id="preco">R$50,00 Diária</span>
+                    <span class="preco">R$50,00 Diária</span>
 
-                    <div class="new_reserva_btn">Reservar Quarto</div>
+                    <div class="new_reserva_btn" id="s_simples_btn">Reservar Quarto</div>
                 </div>
 
 
@@ -99,9 +99,9 @@
                         <li>Frigobar</li>
                     </ul>
 
-                    <span id="preco">R$80,00 Diária</span>
+                    <span class="preco">R$80,00 Diária</span>
 
-                    <div class="new_reserva_btn">Reservar Quarto</div>
+                    <div class="new_reserva_btn" id="s_dupla_btn">Reservar Quarto</div>
                 </div>
 
 
@@ -115,9 +115,9 @@
                         <li>Frigobar</li>
                     </ul>
 
-                    <span id="preco">R$70,00 Diária</span>
+                    <span class="preco">R$70,00 Diária</span>
 
-                    <div class="new_reserva_btn">Reservar Quarto</div>
+                    <div class="new_reserva_btn" id="s_casal_btn">Reservar Quarto</div>
                 </div>
 
 
@@ -134,32 +134,34 @@
                         <li>Ar condicionado</li>
                     </ul>
 
-                    <span id="preco">R$90,00 Diária</span>
+                    <span class="preco">R$90,00 Diária</span>
 
-                    <div class="new_reserva_btn">Reservar Quarto</div>
+                    <div class="new_reserva_btn" id="s_familia_btn">Reservar Quarto</div>
                 </div>
 
             </div>
 
             <div class="menu_reserva">
-                <img src="img/" alt="Botão de fechar">
+                <div id="container_menu">
+                    <img src="img/btn-close.png" alt="Botão de fechar" id="close_btn">
 
-                <span>Número de hospedes</span>
-                    <div id="num_hospedes">
-                        <img src="" alt="">
-                        <span>1</span>
-                        <img src="" alt="">
-                    </div>
+                    <span>Número de hospedes</span>
+                        <div id="num_hospedes">
+                            <img src="img/minimize_icon.png" alt="Icone para diminuir dias">
+                            <span>1</span>
+                            <img src="img/plus_icon.png" alt="Icone para adicionar dias">
+                        </div>
 
-                <span>Número de dias</span>
-                    <div id="num_dias">
-                        <img src="" alt="">
-                        <span>1</span>
-                        <img src="" alt="">
-                    </div>
+                    <span>Número de dias</span>
+                        <div id="num_dias">
+                            <img src="img/minimize_icon.png" alt="Icone para diminuir dias">
+                            <span>1</span>
+                            <img src="img/plus_icon.png" alt="Icone para adicionar dias">
+                        </div>
 
-                <span>Valor Final</span>
-                <span>R$70,00</span>
+                    <span>Valor Final</span>
+                    <span class="preco_menu">R$70,00</span>
+                </div>
             </div>
 
         </main>
