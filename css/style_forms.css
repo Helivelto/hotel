@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+        width: 100vmin;
+        /* min-width: 415px; */
+        height: 100%;
+
+        /* Variaveis */
+        --menu_color: #F7F1E3;
+        --bg_color: #F3E8CB;
+        --yellow_details: #FFDA79;
+        --main_font-color: #596275;
+}
+
+@media only screen and (max-width: 480px){
+    #container{
+        width: 100vmin;
+        /* min-width: 415px; */
+        height: 100%;
+        position: relative;
+        background-color: var(--bg_color);
+    }
+    #back_btn{
+        align-items: flex-start;
+
+        margin-bottom: -2em;
+    }
+
+    form{
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        flex-direction: column;
+
+        margin-left: 5%;
+    }
+    form div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 70%;
+
+        align-self: center;
+
+        margin-top: 2em;        
+    }
+    form input{
+        margin-top: 1em;
+
+        width: 100%;
+        height: 3em;
+
+        border-radius: 10px;
+        border: none;
+
+        padding-left: 10px;
+
+        color: var(--main_font-color);
+    }
+    form span{
+        align-self: flex-start;
+
+        color: var(--main_font-color);
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+    }
+    form div:nth-child(3), form div:nth-child(4){
+        margin-top: 2em;
+    }
+    input:focus{
+        outline: var(--yellow_details) 1px solid;
+    }
+
+    #logotipos{
+        margin-top: 2em;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-content: space-between; */
+    }
+    #facebox{
+        display: flex;
+        justify-content: center;
+
+        margin-right: 10%;
+
+        width: 30%;
+        height: 2.5em;
+
+        border-radius: 10px;
+
+        background-color: #395185;
+    }
+    #googlebox{
+        display: flex;
+        justify-content: center;
+
+
+        width: 30%;
+        height: 2.5em;
+
+        border-radius: 10px;
+
+        background-color: #fff;
+    }
+
+    form button{
+        border-radius: 10px;
+
+        min-height: 42px;
+        max-height: 55px;
+        width: 70%;
+
+        margin: auto;
+        margin-top: 3em;
+        margin-bottom: 5em;
+
+        background-color: var(--yellow_details);
+        outline: none;
+        border: none;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: var(--main_font-color);
+    }
+} 
