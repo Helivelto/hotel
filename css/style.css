@@ -37,11 +37,10 @@ body{
 
         position: relative;
     }
-    .logotipo{
+    /* .logotipo{
         width: 15vw;
         height: 100%;
 
-        /* padding: 1em; */
         margin-left: 2em;
 
         display: flex;
@@ -53,26 +52,26 @@ body{
         font-family: 'Roboto', sans-serif;
         font-size: 0.8rem;
         justify-self: center;
-    }
+    } */
     .logotipo img{
         min-width: 50px;
-        width: 100%;
-        height: 7vh;
+        width: 20vmax;
 
         margin-top: 1em;
         margin-bottom: .5em;
+        margin-left: 1em;
     }
-    .logotipo span{
+    /* .logotipo span{
         margin: auto;
         margin-top: 3px;
         margin-bottom: 1em;
-    }
+    } */
     .box_menu{
         height: 15vh;
     }
-    header div > img:first-child{
+    /* header div > img:first-child{
         height: 10vmin;
-    }
+    } */
     header img[src='img/hero_hotel.jpg']{
         width: 100%;
         min-height: 20vh;
