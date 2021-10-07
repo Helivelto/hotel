@@ -29,12 +29,19 @@ body{
 /* ------------------> Header */
     header{
         width: 100%;
-        min-height: 35vh;
-        max-height: 45vh;
+        height: 15vh;
+        /* min-height: 35vh;
+        max-height: 45vh; */
 
         background-color: var(--menu_color);
         display: flex;
 
+        top: 0;
+        position: sticky;
+        overflow: visible;
+        z-index: 5000;
+    }
+    .hero{
         position: relative;
     }
     /* .logotipo{
@@ -53,7 +60,7 @@ body{
         font-size: 0.8rem;
         justify-self: center;
     } */
-    .logotipo img{
+    img[src="img/hotel_logo_ofc.png" ]{
         min-width: 50px;
         width: 20vmax;
 
@@ -68,16 +75,18 @@ body{
     } */
     .box_menu{
         height: 15vh;
+
+
     }
     /* header div > img:first-child{
         height: 10vmin;
     } */
-    header img[src='img/hero_hotel.jpg']{
+    section img[src='img/hero_hotel.jpg']{
         width: 100%;
         min-height: 20vh;
         max-height: 30vh;
     }
-    header img[src='img/hero_reserva.jpg']{
+    section img[src='img/hero_reserva.jpg']{
         width: 100%;
         min-height: 20vh;
         max-height: 30vh;
