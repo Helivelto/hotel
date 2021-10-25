@@ -112,6 +112,12 @@ body{
 
         background-color: #fff;
     }
+    #googlebox_login > img, #facebox_login > img{
+        width: auto;
+        height: 80%;
+
+        align-self: center;
+    }
 
     form button{
         border-radius: 10px;
