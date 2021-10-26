@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastro de Cliente</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style_forms.css">
-        <!-- Reset css -->
-        <link rel="stylesheet" href="css/reset.css">
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-            <!-- Roboto -->
-            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-            <!-- Montserrat 500 -->
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style_forms.css">
+    <!-- Reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Montserrat 500 -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/hotel_logo_ofc.png">
+
+    <title>Cadastro de Cliente</title>
 </head>
+
 <body>
     <div id="container">
-        
+
         <form action="cadastrar_cliente" method="post">
 
             <div id="back_btn">
@@ -36,30 +42,32 @@
 
             <div>
                 <span>Informações Pessoais</span>
-                <input type="text" name="" id="" placeholder="Nome Completo">
-                <input type="text" name="" id="" placeholder="CPF">
+                <input type="text" name="nome_completo" id="input-nome_comp" placeholder="Nome Completo">
+                <input type="text" name="cpf_usuario" id="input-cpf" placeholder="CPF">
             </div>
 
             <div>
                 <span>Endereço</span>
-                <input type="text" name="" id="" placeholder="nome da rua e Bairro">
-                <input type="text" name="" id="" placeholder="Número">
-                <input type="text" name="" id="" placeholder="Cidade">
-                <input type="text" name="" id="" placeholder="Complemento">
+                <input type="text" name="rua_bairro" id="input-end" placeholder="nome da rua e Bairro">
+                <input type="text" name="num_end" id="input-num" placeholder="Número">
+                <input type="text" name="city_end" id="input-city" placeholder="Cidade">
+                <input type="text" name="comp_end" id="input-comp" placeholder="Complemento">
             </div>
 
             <div>
                 <span>Usuario</span>
-                <input type="text" name="" id="" placeholder="Nome de Usuario">
-                <input type="password" name="" id="" placeholder="Senha">
-                <input type="password" name="" id="" placeholder="Confirmação da Senha">
+                <input type="text" name="nome_usuario" id="input-nome_usuario" placeholder="Nome de Usuario">
+                <input type="password" name="password" id="input-password" placeholder="Senha">
+                <input type="password" name="con_password" id="input-con_password" placeholder="Confirmação da Senha">
             </div>
 
-            <button>Fazer Cadastro</button>
+            <!-- <button>Fazer Cadastro</button> -->
+            <input type="submit" value="Fazer Cadastro" id="submit-cad">
         </form>
     </div>
 
 
-<script src="js/script.js"></script>
+    <script src="js/script_cad.js"></script>
 </body>
+
 </html>
